@@ -43,6 +43,7 @@ docker run -ti -p 8080:80 rcsillag/website-themes
 * HTML
 * Bootstrap 4
 * CSS
+* SCSS
 * JavaScript
 * jQuery
 * Docker
