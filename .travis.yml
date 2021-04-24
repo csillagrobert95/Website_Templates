@@ -9,6 +9,6 @@ before_install:
 jobs:
   include:
     - stage: lint
-      script: eslint "**/*.js"
+      script: eslint "./**/*.js"
     - stage: build
       script: docker build -t rcsillag/website-themes .

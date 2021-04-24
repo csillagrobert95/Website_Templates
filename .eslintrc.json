@@ -5,7 +5,9 @@
     "rules": {
         // Override our default settings just for this directory
         "eqeqeq": "warn",
-        "strict": "off"
+        "strict": "off",
+        "curly": "error",
+        "quotes": ["error", "single"]
     },
     "parserOptions": {
         "ecmaVersion": 2021

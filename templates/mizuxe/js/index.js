@@ -2,8 +2,8 @@
 $('body').scrollspy({target: '#main-nav'})
 
 // Smooth Scrolling
-$("#main-nav a").on('click', function (event){
-    if (this.hash !== "") {
+$('#main-nav a').on('click', function(event) {
+    if (this.hash !== '') {
         event.preventDefault();
 
         const hash = this.hash;
