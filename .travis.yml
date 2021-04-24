@@ -4,7 +4,8 @@ node_js:
 
 stages:
   - lint
-  - build
+  - name: build
+    if: branch = master
 
 services:
   - docker
