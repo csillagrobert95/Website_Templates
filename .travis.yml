@@ -4,11 +4,11 @@ services:
   - docker
 
 before_install:
-  - npm install eslint --global
+  - npm install eslint
 
 jobs:
   include:
     - stage: lint
-      script: eslint "./**/*.js"
+      script: ./node_modules/.bin/eslint . ./**/*.js
     - stage: build
       script: docker build -t rcsillag/website-themes .
