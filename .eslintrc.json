@@ -1,0 +1,13 @@
+{
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        // Override our default settings just for this directory
+        "eqeqeq": "warn",
+        "strict": "off"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2021
+    }
+}
